@@ -1,0 +1,19 @@
+
+
+   body {
+    background-color: black;
+    color: black;
+    font-family: MS Gothic;
+  }
+
+  @font-face {
+    font-family: "MarioKart"; 
+    src: url("Mario-Kart-DS.ttf") format("truetype");
+}
+  p {
+    color: whitesmoke
+  }
+  
+  h1 {
+    color:whitesmoke
+  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>That Guy</title>
+    <!-- WHY ARE YOU LOOKING IN MY SKIN!!!!!!!!!!!!!!!! -->
+    <link href=" " rel="stylesheet" type="text/css" media="all">
+    <style>
+      
+
+   body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: MS Gothic;
+  }
+
+  h1 {
+    color:whitesmoke;
+    text-align: center;
+    
+  }
+
+  h3 {
+    color:whitesmoke;
+    text-align: center;
+    
+  }
+  p {
+    color: whitesmoke;
+    overflow: hidden;
+    border-color:black
+    
+  }
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#guybase {
+        background-image: url('img/bg/Untitled2.GIF')
+    }
+</style>
+  </head>
+  <body>
+    <div id="guybase" style="display:inline-block">
+    <img src="img\thatguy\guy.png"  usemap="#image-map" onclick="displayRandomText()">
+    </div>
+    <div id="displayText"> </div>
+
+    <script>
+            const texts = [
+      "Listen to my voice and you will find the key.",
+      "Have you looked in a mirror lately?",
+      "Ill hit it big one day, just you wait.",
+      "Stay a while! Please!         Please.",
+      "People say im pretty one dimensional.... What do THEY know?!",
+      "Have you seen a hedgehog around lately?",
+      "I think somethings coming for me.",
+      "Can you please answer the phone?",
+      "It wont stop growing. Oh god. It wont stop",
+      "Id offer you a drink, but it seems pretty stale..",
+      "Im just as real as you! You're looking at me, arent you?",
+      "In an imaginary world, is there such thing as consequences?",
+      "The weathers pretty crazy out there, i know.",
+
+    ];
+            function displayRandomText() {
+      const randomIndex = Math.floor(Math.random() * texts.length);
+      const randomText = texts[randomIndex];
+      document.getElementById('displayText').innerText = randomText;
+    }
+    </script>
+    </body>
