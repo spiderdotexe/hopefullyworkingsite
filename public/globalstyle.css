@@ -161,7 +161,17 @@ a.fill-div {
   position: absolute;
   bottom: 40px;
   right: 450px;
+  width: 123px;
+  height: 80px;
+  margin: 0px;
+background-image: url('img/room/eyefunny.gif');
+background-repeat: no-repeat;
+background-size: 123px 80px;
 }
+
+.image1:hover {
+background-image: url('img/room/eyehover.gif');
+        }
 
 .image2 {
   width: 100%;
@@ -169,7 +179,7 @@ a.fill-div {
 }
 
 #footer {
-  text-align: center;
+
 }
 
 #statuscafe {
